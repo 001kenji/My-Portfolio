@@ -10,8 +10,19 @@ import Nicholas1 from '../FILES/Images/Nicholas/1.png'
 import delicaciesHotelImg from '../FILES/Images/delicaciesHotel.png'
 import CityRealEstateImg from '../FILES/Images/CityRealEstate.png'
 import GlobTransporterImg from '../FILES/Images/GlobTranspoter.png'
+import rockPaperImg from '../FILES/Images/rockGame.png'
+
+
 function Projects()  {
         const projectData = [
+            {
+                name : 'Rock-Paper-scissors-Lizard-Spock Game',
+                description : 'My passion for building captivating interfaces shines in my Rock-Paper-Scissors-Spock-Lizard game, a testament to my expertise in front-end development. Crafted with HTML, CSS, Tailwind CSS, and React, it`s a playful playground showcasing clean lines, intuitive interactions, and a sprinkle of geek charm, all meticulously coded to deliver a delightful user experience. Dive in and see my front-end skills at play!',
+                url : 'https://rockpaperslizard.netlify.app/',
+                status : 'Acconmlished',
+                images : [rockPaperImg]
+
+            },
             {
                 name : 'Glob Transporter',
                 description : 'Experience seamless transportation with our client`s cutting-edge Gob Transporter website, crafted using the latest technologies including HTML5, CSS, Tailwind CSS, and Javascript. Immerse yourself in a visually stunning and user-friendly interface, ensuring a smooth and efficient journey through the vast world of gob transportation. Embrace innovation and reliability with this state-of-the-art web platform.',
