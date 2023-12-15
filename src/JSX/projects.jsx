@@ -16,7 +16,7 @@ import rockPaperImg from '../FILES/Images/rockGame.png'
 function Projects()  {
         const projectData = [
             {
-                name : 'Rock-Paper-scissors-Lizard-Spock Game',
+                name : 'Rock-Paper-scissors-Game',
                 description : 'My passion for building captivating interfaces shines in my Rock-Paper-Scissors-Spock-Lizard game, a testament to my expertise in front-end development. Crafted with HTML, CSS, Tailwind CSS, and React, it`s a playful playground showcasing clean lines, intuitive interactions, and a sprinkle of geek charm, all meticulously coded to deliver a delightful user experience. Dive in and see my front-end skills at play!',
                 url : 'https://rockpaperslizard.netlify.app/',
                 status : 'Acconmlished',
