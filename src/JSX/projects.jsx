@@ -11,10 +11,19 @@ import delicaciesHotelImg from '../FILES/Images/delicaciesHotel.png'
 import CityRealEstateImg from '../FILES/Images/CityRealEstate.png'
 import GlobTransporterImg from '../FILES/Images/GlobTranspoter.png'
 import rockPaperImg from '../FILES/Images/rockGame.png'
+import WebCoutryImg from '../FILES/Images/ApiCoutry.png'
 
 
 function Projects()  {
         const projectData = [
+            {
+                name : 'World Coutry Web',
+                description : 'Crafted with React`s agility and styled with Tailwind`s elegant breeze, this interactive globe showcases every nation under the sun. HTML paints the canvas, CSS sculpts the details, and JavaScript breathes life into a dynamic exploration of countries and cultures. Prepare to embark on a journey across borders, powered by the cutting edge of the front-end.',           
+                url : 'https://worldcoutries.netlify.app/',
+                status : 'Acconmlished',
+                images : [WebCoutryImg]
+
+            },
             {
                 name : 'Rock-Paper-scissors-Game',
                 description : 'My passion for building captivating interfaces shines in my Rock-Paper-Scissors-Spock-Lizard game, a testament to my expertise in front-end development. Crafted with HTML, CSS, Tailwind CSS, and React, it`s a playful playground showcasing clean lines, intuitive interactions, and a sprinkle of geek charm, all meticulously coded to deliver a delightful user experience. Dive in and see my front-end skills at play!',
