@@ -12,10 +12,19 @@ import CityRealEstateImg from '../FILES/Images/CityRealEstate.png'
 import GlobTransporterImg from '../FILES/Images/GlobTranspoter.png'
 import rockPaperImg from '../FILES/Images/rockGame.png'
 import WebCoutryImg from '../FILES/Images/ApiCoutry.png'
+import UshindiSecImg from '../FILES/Images/ushindiSec.png'
 
 
 function Projects()  {
         const projectData = [
+            {
+                name : 'Ushindi Secondary template',
+                description : 'Dive into the heart of Ushindi Secondary template where our vibrant community flourishes. Explore our curriculum, meet our dedicated staff, and discover the enriching services we offer, all within a few clicks. Prepare to be inspired.',
+                url : '/',
+                status : 'Acconmlished',
+                images : [UshindiSecImg]
+
+            },
             {
                 name : 'World Coutry Web',
                 description : 'Crafted with React`s agility and styled with Tailwind`s elegant breeze, this interactive globe showcases every nation under the sun. HTML paints the canvas, CSS sculpts the details, and JavaScript breathes life into a dynamic exploration of countries and cultures. Prepare to embark on a journey across borders, powered by the cutting edge of the front-end.',           
