@@ -48,23 +48,30 @@ function App() {
   window.addEventListener('resize', function() {
     if(this.screen.width >= 780) {
       setcurrent(0)
+      setNav(true)
     }else {
       setcurrent(1)
+      setNav(false)
     }
   })
 
   window.addEventListener('loadeddata', function () {
     if(screen.width >= 780) {
       setcurrent(0)
+      setNav(true)
+      
     }else {
       setcurrent(1)
+      setNav(false)
     }
   })
   useEffect(  () => {
     if(screen.width >= 780) {
       setcurrent(0)
+      setNav(true)
     }else {
       setcurrent(1)
+      setNav(false)
     }
   },[])
 
@@ -116,9 +123,11 @@ function App() {
 
   </div>
 
-  <div >{/* home div */}
+  <div className='' id='home-universal-hosting-div' >{/* home div */}
         <Home />
   </div>
+
+  
 
   <div id='bio'>{/* bio div */}
         <Bio />

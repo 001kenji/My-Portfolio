@@ -67,7 +67,7 @@ className={` ${i == current ? "bg-slate-950" : "bg-sky-700"}   rounded-full w-3 
     return (
         <>
         
-        <div className={` bg-slate-50`} id="home-owning-div">{/* owning div */}
+        <div className={`  bg-slate-50`} id="home-owning-div">{/* owning div */}
             
             <div id="home-container-div" className=" lg:bg-slate-200">
                  <div id="image-div">{/* image div */}

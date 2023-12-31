@@ -136,7 +136,7 @@ function Contact() {
         <div>
 
 
-             <form onSubmit={SubmitForm} id="form">
+             <form className=" " onSubmit={SubmitForm} id="form">
                 <div  id="field">
                     {/* <label for="to_name">to_name</label> */}
                     <input required  value='NICHOLAS'  type="text" name="to_name" id="to_name" />

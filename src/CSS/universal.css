@@ -1,3 +1,7 @@
+
+
+
+
 @media only screen and (max-width : 320px)  {
 
     /* home section */
@@ -229,11 +233,13 @@
     }
     #form textarea::placeholder {
         color: black;
+        text-align: center;
         font-size: small;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     #form input::placeholder {
         color: black;
+        text-align: center;
         font-size: small;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -585,11 +591,13 @@
     }
     #form textarea::placeholder {
         color: black;
+        text-align: center;
         font-size: small;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     #form input::placeholder {
         color: black;
+        text-align: center;
         font-size: small;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -947,12 +955,14 @@
     }
     #form textarea::placeholder {
         color: black;
+        text-align: center;
         font-size: small;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     #form input::placeholder {
         color: black;
         font-size: small;
+        text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     #form textarea {
@@ -1335,11 +1345,13 @@
     }
     #form textarea::placeholder {
         color: black;
+        text-align: center;
         font-size: large;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     #form input::placeholder {
         color: black;
+        text-align: center;
         font-size: large;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -1492,7 +1504,7 @@
     #home-container-div {
         display: flex;
         justify-content: space-between;
-        margin: 0px 20px;
+        margin: 0px auto;
         flex-direction: column;
         min-height: 450px;
         border: 1px solid chocolate;
@@ -1748,11 +1760,13 @@
     }
     #form textarea::placeholder {
         color: black;
+        text-align: center;
         font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     #form input::placeholder {
         color: black;
+        text-align: center;
         font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -2161,11 +2175,13 @@
     }
     #form textarea::placeholder {
         color: black;
+        text-align: center;
         font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     #form input::placeholder {
         color: black;
+        text-align: center;
         font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -2575,11 +2591,13 @@
     }
     #form textarea::placeholder {
         color: black;
+        text-align: center;
         font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     #form input::placeholder {
         color: black;
+        text-align: center;
         font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }

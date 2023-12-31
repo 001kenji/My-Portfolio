@@ -18,7 +18,7 @@ import UshindiSecImg from '../FILES/Images/ushindiSec.png'
 function Projects()  {
         const projectData = [
             {
-                name : 'Ushindi Secondary template',
+                name : 'Ushindi Sec. template',
                 description : 'Dive into the heart of Ushindi Secondary template where our vibrant community flourishes. Explore our curriculum, meet our dedicated staff, and discover the enriching services we offer, all within a few clicks. Prepare to be inspired.',
                 url : '/',
                 status : 'Acconmlished',
@@ -119,7 +119,7 @@ function Projects()  {
             <div id="mapping-project-container" className=" ">
                            
                             <div className= "   transition ease-in-out duration-500 relative  pt-4 w-[100%] m-auto" id="mapping-image-div">
-                            {detials.images.map((url)=> <img src={url}></img>)}
+                            {detials.images.map((url)=> <img className=" sm:rounded-e-md " src={url}></img>)}
                             </div>
                            
                             
@@ -154,9 +154,9 @@ function Projects()  {
                          
             </div>
 
-            <div id="project-footer-div">{/* project footer div */}
+            <div className="md:mx-2.5 " id="project-footer-div">{/* project footer div */}
                 <span className=" text-base sm:text-lg md:text-xl lg:2xl" > " The code is poetry, but the pixels are the paint. "</span>
-                <small className=" text-base sm:text-lg md:text-xl lg:2xl flex flex-row gap-4">quote by <p>Pablo Picasso</p></small>
+                <small className=" text-base sm:text-lg md:text-xl lg:2xl flex flex-row gap-4">quote by <p className=" underline underline-offset-4 decoration-cyan-700   animate-bounce ">Pablo Picasso</p></small>
             </div>
 
 
