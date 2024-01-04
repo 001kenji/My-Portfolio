@@ -12,16 +12,25 @@ import CityRealEstateImg from '../FILES/Images/CityRealEstate.png'
 import GlobTransporterImg from '../FILES/Images/GlobTranspoter.png'
 import rockPaperImg from '../FILES/Images/rockGame.png'
 import WebCoutryImg from '../FILES/Images/ApiCoutry.png'
-import UshindiSecImg from '../FILES/Images/ushindiSec.png'
 
+import UshindiSecImg from '../FILES/Images/ushindiSec.png'
+import medicatorsImg from '../FILES/Images/medicators.png'
 
 function Projects()  {
         const projectData = [
             {
+                name : 'Medicators',
+                description : 'Leveraging React\'s composability and Tailwind\'s rapid styling, I crafted a dynamic medical information portal. Crisp HTML and JavaScript power interactive data visualizations, while CSS ensures pixel-perfect responsiveness across all devices',
+                url : 'https://medicators.netlify.app/',
+                status : 'Acconmlished',
+                images : [medicatorsImg]
+
+            },
+            {
                 name : 'Ushindi Sec. template',
                 description : 'Dive into the heart of Ushindi Secondary template where our vibrant community flourishes. Explore our curriculum, meet our dedicated staff, and discover the enriching services we offer, all within a few clicks. Prepare to be inspired.',
-                url : '/',
-                status : 'Acconmlished',
+                url : 'https://ushinditemp.netlify.app/',
+                status : 'On Development',
                 images : [UshindiSecImg]
 
             },
