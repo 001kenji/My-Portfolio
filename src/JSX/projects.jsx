@@ -15,12 +15,20 @@ import WebCoutryImg from '../FILES/Images/ApiCoutry.png'
 
 import UshindiSecImg from '../FILES/Images/ushindiSec.png'
 import medicatorsImg from '../FILES/Images/medicators.png'
-
+import carvillImg from '../FILES/Images/carvilla.png'
 function Projects()  {
         const projectData = [
             {
+                name : 'CARVILLA',
+                description : 'This dynamic car dealership website showcases my expertise in crafting impactful front-end experiences. Built with a robust tech stack of HTML, CSS, Tailwind CSS, and React, it seamlessly blends intuitive navigation with eye-catching visuals, demonstrating my mastery of both technical proficiency and user-centric design. Prepare to be impressed by the smooth responsiveness and engaging features that empower customers and highlight my skills as a seasoned front-end developer.',
+                url : 'https://carsvilla.netlify.app/',
+                status : 'Acconmlished',
+                images : [carvillImg]
+
+            },
+            {
                 name : 'Medicators',
-                description : 'Leveraging React\'s composability and Tailwind\'s rapid styling, I crafted a dynamic medical information portal. Crisp HTML and JavaScript power interactive data visualizations, while CSS ensures pixel-perfect responsiveness across all devices',
+                description : 'My doctor\'s hospital website project boasts a modern, responsive UI built with React, showcasing my expertise in front-end development. Leveraging the power of Tailwind CSS and my meticulous CSS craftsmanship, I\'ve created a pixel-perfect, accessible experience that seamlessly blends intuitive navigation with engaging visuals. This project isn\'t just a portfolio piece; it\'s a testament to my ability to elevate healthcare web design through clean code and thoughtful user-centricity.',
                 url : 'https://medicators.netlify.app/',
                 status : 'Acconmlished',
                 images : [medicatorsImg]
