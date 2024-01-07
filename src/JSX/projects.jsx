@@ -15,9 +15,19 @@ import WebCoutryImg from '../FILES/Images/ApiCoutry.png'
 
 import UshindiSecImg from '../FILES/Images/ushindiSec.png'
 import medicatorsImg from '../FILES/Images/medicators.png'
+
 import carvillImg from '../FILES/Images/carvilla.png'
+import inanceImg from '../FILES/Images/inance.png'
 function Projects()  {
         const projectData = [
+        {
+                name : 'INANCE',
+                description : 'INANCE is more than just a car dealership website; it\'s a testament to my expertise in crafting sleek, dynamic, and user-friendly web experiences. Leveraging the power of React, I built a robust front-end architecture that seamlessly integrates with back-end services, while Tailwind CSS and custom-crafted CSS styles ensure a visually stunning and responsive interface. Every click, scroll, and interaction feels intuitive and effortless, guiding users through the car buying journey with confidence.',
+                url : 'https://sunshinemotors.netlify.app/',
+                status : 'Acconmlished',
+                images : [inanceImg]
+
+            },
             {
                 name : 'CARVILLA',
                 description : 'This dynamic car dealership website showcases my expertise in crafting impactful front-end experiences. Built with a robust tech stack of HTML, CSS, Tailwind CSS, and React, it seamlessly blends intuitive navigation with eye-catching visuals, demonstrating my mastery of both technical proficiency and user-centric design. Prepare to be impressed by the smooth responsiveness and engaging features that empower customers and highlight my skills as a seasoned front-end developer.',
