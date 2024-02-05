@@ -15,7 +15,7 @@ import WebCoutryImg from '../FILES/Images/ApiCoutry.png'
 
 import UshindiSecImg from '../FILES/Images/ushindiSec.png'
 import medicatorsImg from '../FILES/Images/medicators.png'
-import B_IntelImg from '../FILES/Images/b-intel..png'
+import B_IntelImg from '../FILES/Images/b-intel.png'
 
 import carvillImg from '../FILES/Images/carvilla.png'
 import inanceImg from '../FILES/Images/inance.png'
