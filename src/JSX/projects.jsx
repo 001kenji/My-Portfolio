@@ -15,12 +15,21 @@ import WebCoutryImg from '../FILES/Images/ApiCoutry.png'
 
 import UshindiSecImg from '../FILES/Images/ushindiSec.png'
 import medicatorsImg from '../FILES/Images/medicators.png'
+import B_IntelImg from '../FILES/Images/b-intel..png'
 
 import carvillImg from '../FILES/Images/carvilla.png'
 import inanceImg from '../FILES/Images/inance.png'
 function Projects()  {
         const projectData = [
-        {
+            {
+                name : 'B-Intel',
+                description : 'This project leverages a robust technology stack to deliver a seamless user experience. Users can effortlessly create an account and securely log in to access a personalized dashboard. The front-end is meticulously crafted with HTML, CSS, JavaScript, and Tailwind CSS, ensuring an intuitive and visually appealing interface. React empowers dynamic content rendering, while Django and the PostgreSQL database provide a robust and scalable backend foundation. Python ties everything together, enabling efficient data management and server-side logic.',
+                url : 'https://b-intel.netlify.app/',
+                status : 'Acconmlished',
+                images : [B_IntelImg]
+
+            },
+            {
                 name : 'INANCE',
                 description : 'INANCE is more than just a car dealership website; it\'s a testament to my expertise in crafting sleek, dynamic, and user-friendly web experiences. Leveraging the power of React, I built a robust front-end architecture that seamlessly integrates with back-end services, while Tailwind CSS and custom-crafted CSS styles ensure a visually stunning and responsive interface. Every click, scroll, and interaction feels intuitive and effortless, guiding users through the car buying journey with confidence.',
                 url : 'https://sunshinemotors.netlify.app/',
