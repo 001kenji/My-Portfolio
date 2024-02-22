@@ -16,11 +16,19 @@ import WebCoutryImg from '../FILES/Images/ApiCoutry.png'
 import UshindiSecImg from '../FILES/Images/ushindiSec.png'
 import medicatorsImg from '../FILES/Images/medicators.png'
 import B_IntelImg from '../FILES/Images/b-intel.png'
-
+import JumiaCloneImg from '../FILES/Images/Jumia.png'
 import carvillImg from '../FILES/Images/carvilla.png'
 import inanceImg from '../FILES/Images/inance.png'
 function Projects()  {
         const projectData = [
+            {
+                name : 'Jumia-Clone',
+                description : 'I have crafted this project with both front-end and back-end expertise, leveraging modern languages for each layer.  The front-end, built with HTML, CSS, JavaScripts with its framework\'s, delivers a seamless user experience. Secure RESTful API endpoints, powered by Python with it\'s modules, provide robust data access and manipulation. JSON Web Tokens ensure secure authentication, while comprehensive security measures safeguard your data throughout. This project is a testament to my commitment to both user experience and robust architecture.',
+                url : 'https://b-intel-clone.netlify.app/',
+                status : 'Acconmlished',
+                images : [JumiaCloneImg]
+
+            },
             {
                 name : 'B-Intel',
                 description : 'This project leverages a robust technology stack to deliver a seamless user experience. Users can effortlessly create an account and securely log in to access a personalized dashboard. The front-end is meticulously crafted with HTML, CSS, JavaScript, and Tailwind CSS, ensuring an intuitive and visually appealing interface. React empowers dynamic content rendering, while Django and the PostgreSQL database provide a robust and scalable backend foundation. Python ties everything together, enabling efficient data management and server-side logic.',
