@@ -19,6 +19,7 @@ import B_IntelImg from '../FILES/Images/b-intel.png'
 import JumiaCloneImg from '../FILES/Images/Jumia.png'
 import carvillImg from '../FILES/Images/carvilla.png'
 import uniearthImg from '../FILES/Images/uniearth.png'
+import inanceImg from '../FILES/Images/inance.png'
 
 function Projects()  {
         const projectData = [
