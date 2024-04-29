@@ -18,10 +18,18 @@ import medicatorsImg from '../FILES/Images/medicators.png'
 import B_IntelImg from '../FILES/Images/b-intel.png'
 import JumiaCloneImg from '../FILES/Images/Jumia.png'
 import carvillImg from '../FILES/Images/carvilla.png'
-import inanceImg from '../FILES/Images/inance.png'
+import uniearthImg from '../FILES/Images/uniearth.png'
+
 function Projects()  {
         const projectData = [
             {
+                name : 'Uni-Earth',
+                description : 'This website project boasts a modern, responsive UI built with React, showcasing my expertise in front-end development. Leveraging the power of Tailwind CSS and my meticulous CSS craftsmanship, I\'ve created a pixel-perfect, accessible experience that seamlessly blends intuitive navigation with engaging visuals. This project isn\'t just a portfolio piece; it\'s a testament to my ability to elevate healthcare web design through clean code and thoughtful user-centricity.',
+                url : 'https://uniearth.netlify.app/',
+                status : 'Acconmlished',
+                images : [uniearthImg]
+
+            },{
                 name : 'Jumia-Clone',
                 description : 'I have crafted this project with both front-end and back-end expertise, leveraging modern languages for each layer.  The front-end, built with HTML, CSS, JavaScripts with its framework\'s, delivers a seamless user experience. Secure RESTful API endpoints, powered by Python with it\'s modules, provide robust data access and manipulation. JSON Web Tokens ensure secure authentication, while comprehensive security measures safeguard your data throughout. This project is a testament to my commitment to both user experience and robust architecture.',
                 url : 'https://b-intel-clone.netlify.app/',
