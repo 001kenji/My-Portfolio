@@ -47,38 +47,6 @@ function Projects()  {
 
             },
             {
-                name : 'INANCE',
-                description : 'INANCE is more than just a car dealership website; it\'s a testament to my expertise in crafting sleek, dynamic, and user-friendly web experiences. Leveraging the power of React, I built a robust front-end architecture that seamlessly integrates with back-end services, while Tailwind CSS and custom-crafted CSS styles ensure a visually stunning and responsive interface. Every click, scroll, and interaction feels intuitive and effortless, guiding users through the car buying journey with confidence.',
-                url : 'https://sunshinemotors.netlify.app/',
-                status : 'Acconmlished',
-                images : [inanceImg]
-
-            },
-            {
-                name : 'CARVILLA',
-                description : 'This dynamic car dealership website showcases my expertise in crafting impactful front-end experiences. Built with a robust tech stack of HTML, CSS, Tailwind CSS, and React, it seamlessly blends intuitive navigation with eye-catching visuals, demonstrating my mastery of both technical proficiency and user-centric design. Prepare to be impressed by the smooth responsiveness and engaging features that empower customers and highlight my skills as a seasoned front-end developer.',
-                url : 'https://carsvilla.netlify.app/',
-                status : 'Acconmlished',
-                images : [carvillImg]
-
-            },
-            {
-                name : 'Medicators',
-                description : 'My doctor\'s hospital website project boasts a modern, responsive UI built with React, showcasing my expertise in front-end development. Leveraging the power of Tailwind CSS and my meticulous CSS craftsmanship, I\'ve created a pixel-perfect, accessible experience that seamlessly blends intuitive navigation with engaging visuals. This project isn\'t just a portfolio piece; it\'s a testament to my ability to elevate healthcare web design through clean code and thoughtful user-centricity.',
-                url : 'https://medicators.netlify.app/',
-                status : 'Acconmlished',
-                images : [medicatorsImg]
-
-            },
-            {
-                name : 'Ushindi Sec. template',
-                description : 'Dive into the heart of Ushindi Secondary template where our vibrant community flourishes. Explore our curriculum, meet our dedicated staff, and discover the enriching services we offer, all within a few clicks. Prepare to be inspired.',
-                url : 'https://ushinditemp.netlify.app/',
-                status : 'On Development',
-                images : [UshindiSecImg]
-
-            },
-            {
                 name : 'World Coutry Web',
                 description : 'Crafted with React`s agility and styled with Tailwind`s elegant breeze, this interactive globe showcases every nation under the sun. HTML paints the canvas, CSS sculpts the details, and JavaScript breathes life into a dynamic exploration of countries and cultures. Prepare to embark on a journey across borders, powered by the cutting edge of the front-end.',           
                 url : 'https://worldcoutries.netlify.app/',
@@ -101,33 +69,7 @@ function Projects()  {
                 status : 'Acconmlished',
                 images : [GlobTransporterImg]
 
-            },
-            {
-                name : 'City Real Estate',
-                description : 'Immerse yourself in the seamless experience of our cutting-edge real estate website, meticulously crafted with HTML5, CSS, Tailwind CSS, and JavaScript. Explore our user-friendly interface that effortlessly combines aesthetic appeal with intuitive navigation, ensuring a smooth and visually pleasing journey as you search for your dream property. From responsive design to dynamic features, our website sets the standard for modern and engaging online real estate exploration.',
-                url : 'https://cityrealestate.netlify.app/',
-                status : 'Acconmlished',
-                images : [CityRealEstateImg]
-
-            },
-            {
-                name : 'Delicacies Hotel',
-                description : 'Indulge your senses at our exquisite Delicacies Hotel, where culinary artistry meets elegant design. Immerse yourself in a seamless web experience crafted with cutting-edge technologies, including HTML5, CSS, Tailwind CSS, and JavaScript, ensuring a visually stunning and user-friendly journey through the culinary delights our hotel has to offer. Explore our menus, book your reservations, and savor the taste of sophistication on a website that seamlessly blends aesthetics with functionality.',
-                url : 'https://delicacieshotel.netlify.app/',
-                status : 'Acconmlished',
-                images : [delicaciesHotelImg]
-
-            },
-            {
-                name : 'Nicholas Website',
-                description : 'Explore our client`s stunning online portfolio, meticulously crafted with the latest web technologies. This dynamic showcase seamlessly blends HTML5 and CSS for a visually captivating experience, while the sleek design is elevated with Tailwind CSS. The addition of JavaScript brings interactivity to the forefront, ensuring a user-friendly .',
-                url : 'https://kariukinicholas.netlify.app/',
-                status : 'Acconmlished',
-                images : [Nicholas1]
-
-            }
-                
-            
+            },            
             ]
     // const [imgScroll,setImgScroll] = useState(0)
     const [objScroll,setObjScroll] = useState(0)
