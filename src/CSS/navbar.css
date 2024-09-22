@@ -1,0 +1,241 @@
+@media only screen and (max-width : 320px) {
+    #navbar-container-div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border-bottom: 1px solid #333;
+            align-items: center;
+
+    }
+    #navbar-name-div {
+        margin-left: -5%;
+        font-size: normal;
+        font-weight: bold;
+        animation-name: Name;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: both;
+        
+
+    }
+    #navbar-ham-div {
+        
+    }
+    @keyframes Name {
+        0% {color: #333;}
+        50%{color: purple;}
+        100%{color: black;}
+        
+    }
+    #navbar-content-div {
+        position: absolute;
+        min-width: 100px;
+        border-radius: 2px;
+        
+
+    }
+    #navbar-content-div ul {
+        display: flex;
+        font-weight: 400;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    #navbar-content-div ul li > a {
+        text-decoration: none;
+    }
+    #navbar-content-div ul li > a:hover a:focus {
+        padding: 2px;
+        font-size: calc(normal + 4px);
+    }
+
+}
+
+@media  screen and ( max-width : 425px) and ( min-width: 321px) {
+    #navbar-container-div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border-bottom: 1px solid #333;
+            align-items: center;
+
+    }
+    #navbar-name-div {
+        margin-left: -5%;
+        font-size: x-large;
+        font-weight: bold;
+        animation-name: Name;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: both;
+        
+
+    }
+    #navbar-ham-div {
+        
+    }
+    @keyframes Name {
+        0% {color: #333;}
+        50%{color: purple;}
+        100%{color: black;}
+        
+    }
+    #navbar-content-div {
+        position: absolute;
+        min-width: 120px;
+        font-size: 16px;
+        border-radius: 2px;
+        
+
+    }
+    #navbar-content-div ul {
+        display: flex;
+        font-weight: 400;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    #navbar-content-div ul li > a {
+        text-decoration: none;
+    }
+    #navbar-content-div ul li > a:hover a:focus {
+        padding: 2px;
+        font-size: calc(normal + 4px);
+    }
+
+}
+
+@media  screen and ( max-width : 768px) and ( min-width: 426px) {
+    #navbar-container-div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border-bottom: 1px solid #333;
+            align-items: center;
+
+    }
+    #navbar-name-div {
+        margin-left: -5%;
+        font-size: x-large;
+        font-weight: bold;
+        animation-name: Name;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: both;
+        
+
+    }
+    #navbar-ham-div {
+        
+    }
+    @keyframes Name {
+        0% {color: #333;}
+        50%{color: purple;}
+        100%{color: black;}
+        
+    }
+    #navbar-content-div {
+        position: absolute;
+        min-width: 150px;
+        font-size: 17px;
+        border-radius: 2px;
+        
+
+    }
+    #navbar-content-div ul {
+        display: flex;
+        font-weight: 400;
+        flex-direction: column;
+        width: 100px;
+        gap: 10px;
+       
+    }
+    #navbar-content-div ul li > a {
+        text-decoration: none;
+        
+        
+       
+    }
+    #navbar-content-div ul li > a:hover a:focus {
+        padding: 2px;
+        font-size: calc(normal + 4px);
+    }
+   
+    
+
+}
+
+@media  screen and  ( min-width: 769px) {
+    #navbar-container-div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border-bottom: 1px solid #333;
+            align-items: center;
+            
+
+    }
+    #navbar-name-div {
+        margin-left: -5%;
+        font-size: xx-large;
+        font-weight: bold;
+        animation-name: Name;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: both;
+        
+
+    }
+    #navbar-ham-div {
+        display: none;
+    }
+    @keyframes Name {
+        0% {color: #333;}
+        50%{color: purple;}
+        100%{color: black;}
+        
+    }
+    #navbar-content-div {
+        position: relative;
+        float: right;
+        min-width: 150px;
+        font-size: 17px;
+        border-radius: 2px;
+        
+
+    }
+    #navbar-content-div ul {
+        display: flex;
+        font-weight: 400;
+        flex-direction: row;
+        
+        width: fit-content;
+        min-width: 500px;
+        min-height: 50px;
+        padding-top: 10px;
+        align-content: center;
+        justify-content: space-around;
+        align-content: center;
+        gap: 10px;
+       
+    }
+    #navbar-content-div ul li > a {
+        text-decoration: none;
+        font-size: 25px;
+        
+        
+       
+    }
+    #navbar-content-div ul li > a:hover a:focus {
+        padding: 2px;
+        font-size: calc(normal + 4px);
+    }
+   
+    
+
+}
+
