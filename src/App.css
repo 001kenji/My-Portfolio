@@ -15,7 +15,9 @@
     color:white;
     
    }
-
+   #universalContainer{
+    background-image: url('./assets/images/bgimage.jpg');
+   }
    
    @media only screen and (max-width : 320px) {
    /* navbar section */

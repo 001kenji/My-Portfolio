@@ -6,9 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'homeCover' : "url('./public/bgimage.jpg')"
-      },
       screens: {
         xs: '321px',
       },

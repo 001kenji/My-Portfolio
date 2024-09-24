@@ -22,6 +22,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FiGithub } from "react-icons/fi";
 import HomeImg from '../assets/images/home logo.jpg'
+import bgImage from '../assets/images/bgimage.jpg'
 // project image importation
 import ChatAppImg from '../assets/Projects/chat.png'
 import JobAppImg from '../assets/Projects/job.png'
@@ -35,7 +36,7 @@ function Home()  {
     const year = date.getFullYear()
     const [CurrentScroll,SetCurrentScroll] = useState(0)
     const [DispImages,SetDispImages]= useState(true)
-    
+    var homeimg = bgImage
     const MyProjects = [
         {
             'image' : ChatAppImg,
@@ -128,13 +129,13 @@ function Home()  {
             {/* background image Container */}
 
             {/* universal container */}
-            <div id="universalContainer" className={` relative overflow-hidden w-full  bg-homeCover bg-cover bg-no-repeat bg-fixed    z-50 h-full min-h-full  flex flex-col justify-center text-slate-100   `} >
+            <div id="universalContainer" className={` relative overflow-hidden w-full  bg-cover bg-no-repeat bg-fixed    z-50 h-full min-h-full  flex flex-col justify-center text-slate-100   `} >
                 {/* home Container */}
                 <div className=" flex flex-col h-fit md:flex-row-reverse min-h-[1000px] z-40 justify-start md:justify-center bg-slate-800 bg-opacity-80" >
                     <div data-aos="zoom-in"  data-aos-easing="ease-in-sine" data-aos-duration="700" className="mask  mask-squircle sm:w-[500px] mt-20  md:w-[600px] mx-auto md:my-auto  ">
                         <img className=" opacity-80 " src={HomeImg} />
                     </div>
-                    <blockquote className=" mt-20  mx-4 md:pl-2 text-sm md:text-base lg:text-lg md:my-auto md:mx-0 md:ml-20  z-30 xl:text-xl flex flex-col flex-nowrap gap-2 text-slate-200 font-[NavText] ">
+                    <blockquote  className=" mt-20  mx-4 md:pl-2 text-sm md:text-base lg:text-lg md:my-auto md:mx-0 md:ml-20  z-30 xl:text-xl flex flex-col flex-nowrap gap-2 text-slate-200 font-[NavText] ">
                         <p data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="700"  className=" " >Greetings, my name is</p>
                         <big data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="1000" className="inline-flex text-slate-50 text-4xl lg:text-6xl xl:text-7xl  font-[BigTitle] w-fit">Brian Njuguna <span className=" inline w-fit mx-2 text-base lg:text-2xl mt-auto max-w-fit animate-bounce text-sky-500" >.</span> </big> 
                         <p data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="1300" className=" inline-flex max-w-[800px] mt-3  " >A Full Stack Web Developer specializing in building exceptional web applications that transform ideas into reality. I am dedicated to creating comprehensive, fully functional applications with a focus on quality and innovation.</p>
@@ -332,7 +333,7 @@ function Home()  {
                     
                 </div>
                 {/* fixed background image */}
-                <div className=" hidden fixed mt-20 h-full w-full bg-homeCover bg-cover lg:bg-center lg:opacity-[0.08] opacity-[0.11] z-0 " ></div>
+                <div  className=" hidden fixed mt-20 h-full w-full  bg-cover lg:bg-center lg:opacity-[0.08] opacity-[0.11] z-0 " ></div>
             </div>
             
 
