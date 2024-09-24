@@ -5,8 +5,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'homeCover' : "url('./src/assets/images/bgimage.jpg')"
+      },
+      screens: {
+        xs: '321px',
+      },
+      animation: {
+        'bounce-slow': 'bounce 12s ease-in-out infinite',
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
   darkMode : 'class',
 }
