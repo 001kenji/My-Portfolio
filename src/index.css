@@ -1,0 +1,225 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base ─────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html  { scroll-behavior: smooth; }
+body  {
+  background-color: #060811;
+  color: #f1f5f9;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Custom Scrollbar ──────────────────────────────── */
+::-webkit-scrollbar       { width: 4px; }
+::-webkit-scrollbar-track { background: #060811; }
+::-webkit-scrollbar-thumb { background: #1E3A8A; border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: #2563EB; }
+
+/* ─── Typography ────────────────────────────────────── */
+.font-display { font-family: 'Space Grotesk', sans-serif; }
+.font-mono    { font-family: 'JetBrains Mono', monospace; }
+
+/* ─── Glass Card ────────────────────────────────────── */
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+}
+.glass-strong {
+  background: rgba(37, 99, 235, 0.07);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  border-radius: 16px;
+}
+
+/* ─── Glow Effects ──────────────────────────────────── */
+.glow-plasma {
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.35), 0 0 60px rgba(37, 99, 235, 0.12);
+}
+.glow-ion {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.4), 0 0 60px rgba(6, 182, 212, 0.15);
+}
+.glow-pulse {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.4), 0 0 60px rgba(16, 185, 129, 0.15);
+}
+.text-glow-plasma {
+  text-shadow: 0 0 24px rgba(96, 165, 250, 0.55), 0 0 48px rgba(37, 99, 235, 0.25);
+}
+.text-glow-ion {
+  text-shadow: 0 0 20px rgba(103, 232, 249, 0.6), 0 0 40px rgba(6, 182, 212, 0.3);
+}
+
+/* ─── Gradient Text ─────────────────────────────────── */
+.gradient-text-plasma {
+  background: linear-gradient(135deg, #93C5FD 0%, #2563EB 50%, #06B6D4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gradient-text-ion {
+  background: linear-gradient(135deg, #67E8F9 0%, #06B6D4 60%, #10B981 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gradient-text-warm {
+  background: linear-gradient(135deg, #F59E0B 0%, #EF4444 60%, #2563EB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Buttons ───────────────────────────────────────── */
+.btn-plasma {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #2563EB, #1E3A8A);
+  border: 1px solid rgba(96, 165, 250, 0.3);
+  color: #f1f5f9;
+  transition: all 0.3s ease;
+}
+.btn-plasma::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.10), transparent);
+  transition: left 0.5s ease;
+}
+.btn-plasma:hover::before { left: 100%; }
+.btn-plasma:hover {
+  box-shadow: 0 0 24px rgba(37, 99, 235, 0.5);
+  transform: translateY(-1px);
+}
+.btn-ion {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #06B6D4, #0E7490);
+  border: 1px solid rgba(103, 232, 249, 0.3);
+  color: #f1f5f9;
+  transition: all 0.3s ease;
+}
+.btn-ion:hover {
+  box-shadow: 0 0 24px rgba(6, 182, 212, 0.5);
+  transform: translateY(-1px);
+}
+.btn-outline-plasma {
+  background: transparent;
+  border: 1px solid rgba(37, 99, 235, 0.5);
+  color: #60A5FA;
+  transition: all 0.3s ease;
+}
+.btn-outline-plasma:hover {
+  background: rgba(37, 99, 235, 0.1);
+  border-color: #60A5FA;
+  box-shadow: 0 0 16px rgba(37, 99, 235, 0.3);
+}
+
+/* ─── Grid Background ───────────────────────────────── */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(37, 99, 235, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.05) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+/* ─── Section ───────────────────────────────────────── */
+.section-pad { padding: 5rem 1.5rem; }
+
+/* ─── Tech Tag ──────────────────────────────────────── */
+.tech-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 99px;
+  font-size: 0.7rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  background: rgba(37, 99, 235, 0.10);
+  border: 1px solid rgba(37, 99, 235, 0.22);
+  color: #60A5FA;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.tech-tag-ion {
+  background: rgba(6, 182, 212, 0.10);
+  border-color: rgba(6, 182, 212, 0.25);
+  color: #67E8F9;
+}
+
+/* ─── Nav Link ──────────────────────────────────────── */
+.nav-link {
+  position: relative;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.50);
+  transition: color 0.25s ease;
+  padding: 4px 0;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; left: 0;
+  width: 0%; height: 1px;
+  background: #2563EB;
+  transition: width 0.3s ease;
+}
+.nav-link:hover          { color: #60A5FA; }
+.nav-link:hover::after   { width: 100%; }
+.nav-link.active         { color: #60A5FA; }
+.nav-link.active::after  { width: 100%; background: #06B6D4; }
+
+/* ─── Timeline ──────────────────────────────────────── */
+.timeline-dot {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: #2563EB;
+  box-shadow: 0 0 12px rgba(37, 99, 235, 0.7);
+  flex-shrink: 0;
+}
+.timeline-line {
+  width: 1px;
+  flex: 1;
+  background: linear-gradient(to bottom, #2563EB, rgba(6, 182, 212, 0.3));
+  margin: 0 auto;
+}
+
+/* ─── 3D Tilt — preserve context ───────────────────── */
+.tilt-context {
+  transform-style: preserve-3d;
+  perspective: 900px;
+}
+
+/* ─── Animations ────────────────────────────────────── */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-16px); }
+}
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-float      { animation: float 6s ease-in-out infinite; }
+.animate-slide-up   { animation: slideUp 0.6s ease forwards; }
+
+/* ─── Reduced Motion ────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
