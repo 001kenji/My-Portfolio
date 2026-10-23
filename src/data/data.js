@@ -55,6 +55,18 @@ export const about = {
 export const projects = [
   {
     id: 1,
+    title: 'Shop Management System',
+    category: 'E-Commerce Platform',
+    techSummary: 'ASP.NET Core MVC · SQL Server · Tailwind CSS',
+    description:
+      'A comprehensive retail management platform bridging local stores and the digital marketplace, featuring role-based access, inventory tracking, delivery/booking workflows, and an interactive review system.',
+    url: 'https://your-live-site-url.com/',
+    github: 'https://github.com/001kenji/your-repo-name',
+    tech: ['C#', 'ASP.NET Core', 'Entity Framework Core', 'SQL Server', 'TailwindCSS', 'Identity'],
+    color: '#16A34A',
+  },
+  {
+    id: 2,
     title: 'E-Soie',
     category: 'E-Commerce Platform',
     techSummary: 'React · Django · PostgreSQL',
@@ -66,7 +78,7 @@ export const projects = [
     color: '#2563EB',
   },
   {
-    id: 2,
+    id: 3,
     title: 'AI Video Creator',
     category: 'AI Tool',
     techSummary: 'React · Django · PostgreSQL',
@@ -78,7 +90,7 @@ export const projects = [
     color: '#06B6D4',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Ni-Know',
     category: 'Numerology Web App',
     techSummary: 'React · Three.js · TailwindCSS',
@@ -90,7 +102,7 @@ export const projects = [
     color: '#10B981',
   },
   {
-    id: 4,
+    id: 5,
     title: 'EduLearn Pro',
     category: 'Learning Platform',
     techSummary: 'React · Django · PostgreSQL',
@@ -102,7 +114,7 @@ export const projects = [
     color: '#F59E0B',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Kenji Assistant',
     category: 'AI Android App',
     techSummary: 'Kotlin · Jetpack Compose · AI',
@@ -114,7 +126,7 @@ export const projects = [
     color: '#EF4444',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Document Translator AI',
     category: 'AI Translation Tool',
     techSummary: 'Python · OCR · ML',
@@ -126,7 +138,7 @@ export const projects = [
     color: '#60A5FA',
   },
   {
-    id: 7,
+    id: 8,
     title: 'KCSE Topic Predictor',
     category: 'Educational AI',
     techSummary: 'Python · ML · Data Analysis',
@@ -138,7 +150,7 @@ export const projects = [
     color: '#67E8F9',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Collaborative Whiteboard',
     category: 'Real-time Collaboration',
     techSummary: 'React · Fabric.js · WebSockets',
