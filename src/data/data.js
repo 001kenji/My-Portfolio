@@ -60,8 +60,8 @@ export const projects = [
     techSummary: 'ASP.NET Core MVC · SQL Server · Tailwind CSS',
     description:
       'A comprehensive retail management platform bridging local stores and the digital marketplace, featuring role-based access, inventory tracking, delivery/booking workflows, and an interactive review system.',
-    url: 'https://your-live-site-url.com/',
-    github: 'https://github.com/001kenji/your-repo-name',
+    url: null,
+    github: 'https://github.com/001kenji/shopify',
     tech: ['C#', 'ASP.NET Core', 'Entity Framework Core', 'SQL Server', 'TailwindCSS', 'Identity'],
     color: '#16A34A',
   },
